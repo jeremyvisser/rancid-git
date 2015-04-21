@@ -2312,8 +2312,8 @@ sub DoNothing {print STDOUT;}
 	{'dir /all sec-disk2:'		=> 'DirSlotN'},
 	{'show controllers'		=> 'ShowContAll'},
 	{'show controllers cbus'	=> 'ShowContCbus'},
-	{'show snmp mib ifmib ifindex'  => 'ShowIfIndex'},
-	{'show snmp engineID'           => 'ShowEngineID'},
+	#{'show snmp mib ifmib ifindex'  => 'ShowIfIndex'},
+	#{'show snmp engineID'           => 'ShowEngineID'},
 	{'show diagbus'			=> 'ShowDiagbus'},
 	{'show diag'			=> 'ShowDiag'},
 	{'show capture'			=> 'ShowCapture'},	# ASA/PIX
@@ -2326,11 +2326,11 @@ sub DoNothing {print STDOUT;}
 	{'show vlan-switch'		=> 'ShowVLAN'},
 	{'show crypto pki certificates' => 'ShowCert'},
 	{'show standby'			=> 'ShowStandby'},
-	{'show interface'		=> 'ShowInterface'},
+	#{'show interface'		=> 'ShowInterface'},
 	{'show ip interface'		=> 'ShowIPInterface'},
 	{'show ipv6 interface'		=> 'ShowIPv6Interface'},
 	{'show debug'			=> 'ShowDebug'},
-	{'show shun'			=> 'ShowShun'},		# ASA/PIX
+	#{'show shun'			=> 'ShowShun'},		# ASA/PIX
 	{'more system:running-config'	=> 'WriteTerm'},	# ASA/PIX
 	{'show running-config view full'=> 'WriteTerm'},	# workaround for
 								# role-based CLI
